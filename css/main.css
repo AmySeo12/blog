@@ -1,0 +1,192 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+}
+
+body {
+	background-color: #2D2735;
+	color: white;
+	font-family: 'Open Sans'
+}
+
+.pd-2 {
+	padding: 0px 2%;
+}
+.text-decoration-none {
+	text-decoration: none;
+}
+
+.text-decoration-none:hover {
+	color: #F7BA6A;
+}
+
+.bck-black {
+	background-color: #1C1821
+}
+
+.text-italic {
+	color: white;
+	font-family: 'Open Sans';
+	font-style: italic;
+
+}
+
+.text {
+	font-family: 'Courgette';
+	color: #F7BA6A;
+}
+
+.txt-center-pd {
+	padding: 5px 10px 20px;
+	text-align: center;
+}
+
+/*HEADER*/
+.container {
+	width: 80%;
+	margin: 0px auto;
+}
+
+.relative {
+	position: relative;
+}
+
+.menu {
+	text-align: right;
+	padding-top: 30px;
+}
+
+.tamaño {
+	width: 50%;
+}
+
+.pd {
+	padding: 10px;
+}
+
+.bars {
+	font-size: 3em;
+	display: none;
+	position: absolute;
+	top: 50%;
+	right: 2%;
+}
+
+/*Section 1*/
+.fondo {
+	background-image: url(../image/header-image.jpg);
+	background-size: cover;
+	height: 450px;
+	margin-top: 30px;
+	padding-top: 120px;
+}
+
+.negro {
+	width: 50%;;
+	margin: 0 auto;
+	text-align: center;
+	padding: 4%;
+}
+
+.titulo {
+	font-size: 5em;
+	padding-bottom: 2%;
+}
+
+/*section 2 */
+.height{
+	line-height: 0px;
+}
+
+.imagen {
+	width: 100%;
+}
+
+.mt-3 {
+	margin-top: 3%;
+}
+
+.h3 {
+	padding-bottom: 2%;
+}
+
+.pr-10 {
+	padding-right: 10px;
+}
+
+.medida {
+	line-height: 0px;
+}
+
+/*section 3*/
+.forma {
+	background-color: #2D2735;
+	padding: 10px;
+	width: 8%;
+	border-radius: 50%;
+	margin: 3% 2% 0px 0px;
+}
+
+.forma:hover {
+	background-color: white;
+	color: #F7BA6A;
+}
+
+.buscar {
+	margin-bottom: 2%;
+	padding: 20px 25px;
+}
+
+.search {
+	width: 100%;
+	padding: 15px 10px;
+	background-color: #2D2735;
+	border: 1px solid #2D2735;
+	border-radius: 5px;
+}
+/*Footer*/
+
+footer {
+	margin-top: 5%;
+	padding-top: 2%;
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+	.none {
+		display: none;
+	}
+
+	.media, .bck-black, .imagen{
+		width: 100%;
+		padding-right: 0px;
+	}
+
+	.fondo {
+		padding-top: 3.5% 
+	}
+	.negro {
+		width: 90%;
+		height: 95%;
+		margin: 0 auto;
+		padding: 15% 1% 0%;
+	}
+	.titulo {
+		padding-bottom: 10%;
+		font-family: 'Courgette';
+		font-size: 5em;
+	}
+	.menu {
+		display: none;
+	}
+
+	.relative {
+		padding-top: 5%;
+	}
+	.bars {
+		display: inline;
+	}
+	.tamaño {
+		min-width: 100%;
+	}
+}
