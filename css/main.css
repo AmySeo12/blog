@@ -153,12 +153,20 @@ footer {
 
 /* Responsive */
 @media screen and (max-width: 900px) {
+	.bars {
+		display: inline;
+	}
+	.menu {
+		display: none;
+	}
+
+@media screen and (max-width: 600px) {
 	.none {
 		display: none;
 	}
 
 	.media, .bck-black, .imagen{
-		width: 100%;
+		max-width: 100%;
 		padding-right: 0px;
 	}
 
@@ -176,15 +184,8 @@ footer {
 		font-family: 'Courgette';
 		font-size: 5em;
 	}
-	.menu {
-		display: none;
-	}
-
 	.relative {
 		padding-top: 5%;
-	}
-	.bars {
-		display: inline;
 	}
 	.tamaño {
 		min-width: 100%;
